@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.hero{
+    border: 10px solid #444;
+}
+.container{
+    margin: 0 10%;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.intro img{
+    width: 30%;
+    border-radius: 50%;
+}
+.intro h1{
+    font-size: 50px;
+    font-weight:bolder;
+    
+}
+.intro p{
+ text-align: end;
+ font-weight: bold;
+ font-size: 25px;
+}
+.wrapper h2{
+    padding-bottom: 20px;
+    font-size: 60px;
+    font-weight: bolder;
+}
+.wrapper p{
+    font-size: 25px;
+    line-height: 2.5rem;
+    color: #444;
+}
+.wrapper p span{
+    color: black;
+    font-weight: bold;
+}
+.bio h4{
+    padding: 20px 0;
+    font-size: 30px;
+}
+.bio ul {
+    padding-left: 40px;
+}
+.bio ul li{
+    font-size: 20px;
+    line-height: 2.4rem;
+}
+footer p{
+    text-align: end;
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+@media only screen and (max-width:600px) {
+  .intro h1{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+  .intro img{
+    padding: 20px;
+    width: 40%;
+  }
+  .intro p{
+    font-size: 12px;
+    padding-right: 20px;
+  }
+  .container{
+    margin: none;
+  }
+  .wrapper h2{
+    font-size: 24px;
+    padding: 10px;
+  }
+  .wrapper p{
+    font-size: 14px;
+    padding: 10px;
+  }
+  .bio h4{
+    font-size: 18px;
+    padding: 20px;
+  }
+  .bio ul li{
+    font-size: 14px;
+  }
+  .container{
+    margin: 0 0;
+  }
+  .footer{
+    font-size: 14px;
+    padding-right: 10px;
+  }
+ 
+
+
+}
+@media (min-width:320px) {
+    .intro h1{
+        font-size: 12px;
+    }
+    .footer{
+        font-size: 10px;
+    }
+  }
+  @media (min-width:768px) {
+    .intro h1{
+        font-size: 30px;
+    }
+  }
+  @media (min-width:1200px) {
+    .intro h1{
+        font-size: 50px;
+    }
+  }
